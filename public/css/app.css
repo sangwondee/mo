@@ -5081,7 +5081,7 @@ input[type="submit"].button {
   position: relative;
   vertical-align: top;
   background-color: white;
-  border-color: #ccd0d2;
+  border-color: #dbdbdb;
   color: #363636;
   -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
           box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
@@ -5320,7 +5320,7 @@ input[type="submit"].button {
   position: relative;
   vertical-align: top;
   background-color: white;
-  border-color: #ccd0d2;
+  border-color: #dbdbdb;
   color: #363636;
   cursor: pointer;
   display: block;
@@ -12570,7 +12570,7 @@ label.panel-block:hover {
 }
 
 /* ========================================
-   =========== Text Override ==========
+   ============ Text Overrides ===========
    ======================================== */
 
 .is-muted {
@@ -12592,6 +12592,7 @@ a.is-muted:hover {
 .dropdown-menu {
   -webkit-box-shadow: 0 0 8px #777;
           box-shadow: 0 0 8px #777;
+  background-color: white;
   display: none;
   left: 0;
   position: absolute;
@@ -13153,5 +13154,25 @@ button.nav-item.is-active {
 
 .p-r-100 {
   padding-right: 100px;
+}
+
+.side-menu {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  width: 200px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 
