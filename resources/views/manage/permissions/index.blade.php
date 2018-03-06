@@ -4,10 +4,10 @@
   <div class="flex-container">
     <div class="columns m-t-10">
       <div class="column">
-        <h1 class="title">Manage Permissions</h1>
+        <h1 class="title">Manage Permissions faslfjslk</h1>
       </div>
       <div class="column">
-        <a href="{{route('permissions.create')}}" class="button is-primary is-pulled-right"><i class="fa fa-user-plus m-r-10"></i> Create New Permission</a>
+        <a href="{{route('permissions.create')}}" class="button is-primary is-pulled-right is-small is-outlined"><i class="fa fa-user-plus m-r-10"></i> Create New Permission</a>
       </div>
     </div>
     <hr class="m-t-0">
