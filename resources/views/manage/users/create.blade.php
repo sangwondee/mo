@@ -8,7 +8,7 @@
       </div>
     </div>
     <hr class="m-t-0">
-    <form action="{{ route('users.store') }}" method="POST">
+    <form action="{{route('users.store')}}" method="POST">
       {{csrf_field()}}
       <div class="columns">
         <div class="column">
@@ -64,7 +64,7 @@
       el: '#app',
       data: {
         auto_password: true,
-        rolesSelected: {!! old('roles') ? old('roles') : '[]' !!}
+        rolesSelected: [{!! old('roles') ? old('roles') : '' !!}]
       }
     });
   </script>

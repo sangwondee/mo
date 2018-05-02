@@ -183,6 +183,7 @@ return [
         */
         Laratrust\LaratrustServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        DevMarketer\EasyNav\EasyNavServiceProvider::class,
 
     ],
 
@@ -234,6 +235,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Nav' => DevMarketer\EasyNav\EasyNavFacade::class,
 
     ],
 

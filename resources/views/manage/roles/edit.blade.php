@@ -4,7 +4,7 @@
   <div class="flex-container">
     <div class="columns m-t-10">
       <div class="column">
-        <h1 class="title">Edit {{ $role->display_name }}</h1>
+        <h1 class="title">Edit {{$role->display_name}}</h1>
       </div>
     </div>
     <hr class="m-t-0">
